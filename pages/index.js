@@ -5,11 +5,10 @@ import {GiBurningTree} from 'react-icons/gi';
 import {MdContacts} from 'react-icons/md';
 import {FaQuestion} from 'react-icons/fa';
 import {MdTouchApp} from 'react-icons/md';
-import './index.css'
 
 function ClickIndex(){
 
-    document.querySelector("#mainapp").style.right = "-100%";
+    document.querySelector("#mainapp").style.left = "-100%";
     setTimeout(function(){
         Router.push("/ChatPage");
     }, 1000)
