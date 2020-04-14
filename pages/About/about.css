@@ -1,0 +1,7 @@
+#about {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -100%;
+    transition: left 1s;
+}

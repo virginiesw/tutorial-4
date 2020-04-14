@@ -4,7 +4,7 @@ import CustomButton from '../comps/CustomButton';
 import Header from '../comps/Header';
 import Input from '../comps/Input';
 import Chat from '../comps/Chat';
-import ChatPage from '../page/ChatPage'
+import ChatPage from '../pages/ChatPage'
 
 export default {
     title: "My comps",
